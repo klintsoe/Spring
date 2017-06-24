@@ -1,0 +1,51 @@
+[
+    {
+    "navn" : "Søren",
+    "id"  :  1,
+    "kampListe" : [
+    {"color" : "w", "modstanderId" : 2, "kampResultat" : "", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 1, "kampResultat" : "1", "matchCancelled" : false},
+    {"color" : "w", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false}
+
+    ],
+    "score" : 1.5,
+    "korrektion" : 22.34,
+    "leader" : false,
+    "active" : true
+},
+  {
+    "navn" : "Michael",
+    "id"  :  2,
+    "kampListe" : [
+    {"color" : "b", "modstanderId" : 2, "kampResultat" : "0", "matchCancelled" : false},
+    {"color" : "w", "modstanderId" : 2, "kampResultat" : "0", "matchCancelled" : false},
+    {"color" : "w", "modstanderId" : 1, "kampResultat" : "½", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 1, "kampResultat" : "½", "matchCancelled" : false},
+    {"color" : "w", "modstanderId" : 1, "kampResultat" : "½", "matchCancelled" : false}
+
+    ],
+        "score" : 1,
+    "korrektion" : 2.33,
+    "leader" : false,
+    "active" : true
+
+  },
+  {
+    "navn" : "Jakob",
+    "id"  :  3,
+    "kampListe" : [
+    {"color" : "w", "modstanderId" : 2, "kampResultat" : "0", "matchCancelled" : false},
+    {"color" : "w", "modstanderId" : 2, "kampResultat" : "1", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false},
+    {"color" : "b", "modstanderId" : 3, "kampResultat" : " ", "matchCancelled" : false}
+    ],
+        "score" : 0,
+    "korrektion" : 2.2,
+    "leader" : true,
+    "active" : true
+
+  }
+]

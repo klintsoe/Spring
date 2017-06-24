@@ -1,0 +1,14 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        You can try to login...
+    </div>
+</div>
+
+<div *ngIf='showError()'>
+    <h1>You have tried to hack my system....!</h1>
+</div>
+
+<button (click)="login()">Login In</button>
+
+<button (click)="logout()">Login Out</button>
+

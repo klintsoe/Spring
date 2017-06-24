@@ -1,0 +1,32 @@
+<table *ngIf='showListe()' class='scoreTable'>
+    <thead>
+        <tr class = 'headline'>
+        <th class = 'nameCell'>Spiller</th>
+        <th class = 'scoreCell'>1.R</th>
+        <th class = 'scoreCell'>2.R</th>
+        <th class = 'scoreCell'>3.R</th>
+        <th class = 'scoreCell'>4.R</th>
+        <th class = 'scoreCell'>5.R</th>
+       <th class = 'scoreCell'>Sum</th>
+       <th class = 'scoreCell'>Kor</th>
+        
+        </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor='let spillerData of spillerList'>
+        <td ><playName [spillerData]='spillerData'></playName></td>
+        <td><match [matchdata]= 'spillerData.kampListe[0]' ></match></td>
+        <td><match [matchdata]= 'spillerData.kampListe[1]' ></match></td>
+        <td><match [matchdata]= 'spillerData.kampListe[2]' ></match></td>
+        <td><match [matchdata]= 'spillerData.kampListe[3]' ></match></td>
+        <td><match [matchdata]= 'spillerData.kampListe[4]' ></match></td>
+
+        <td class = 'scoreCell'>{{spillerData.score}}</td>
+        <td class = 'scoreCell'>{{spillerData.korrektion}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div *ngIf='!showListe()'>
+    øv... intet at vise
+</div>
